@@ -23,14 +23,12 @@ public class ImpostoEmpregadoMB implements Serializable{
 	public ImpostoEmpregadoMB() {
 		lista = service.selecionar(2);
 	}
+	
 	public String listAll() {
 		lista = service.selecionar(2);
 		return "imposto-empregado";
 	}
-
 	//----------------------------------------------------------------------------------------------------------------------//
-	
-	
 	public Integer getIdEmpregado() {
 		return idEmpregado;
 	}
@@ -52,17 +50,10 @@ public class ImpostoEmpregadoMB implements Serializable{
 	public static long getSerialversionuid() {
 		return serialVersionUID;
 	}
-
-
 	public ImpostoEmpregado getImposto() {
 		return imposto;
 	}
-
-
 	public void setImposto(ImpostoEmpregado imposto) {
 		this.imposto = imposto;
 	}
-	
-	
-	
 }
