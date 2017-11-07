@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf15071498829550" configfile="/MeuEmpregado/WebContent/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="index.xhtml" id="pf15088805681780" referenceLink="//@navigationRule.1/@navigationCase.0/@toViewId|" outlinks="pf15088805681781" inlinks="pf15088805681782" path="index.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="imposto-empregado.xhtml" id="pf15088805681793" referenceLink="//@navigationRule.1/@fromViewId|" outlinks="pf15088805681782" inlinks="pf15088805681781" path="imposto-empregado.xhtml"/>
+  <links id="pf15088805681781" target="pf15088805681793" source="pf15088805681780" outcome="imposto-empregado" redirect="true"/>
+  <links id="pf15088805681782" target="pf15088805681780" source="pf15088805681793" outcome="index" redirect="true"/>
+</pageflow:Pageflow>

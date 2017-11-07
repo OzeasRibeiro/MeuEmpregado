@@ -1,0 +1,46 @@
+
+
+/* TEXTO */
+.text-left{
+	text-align: left;
+}
+.text-right{
+	text-align: right;
+}
+.text-center{
+	text-align: center;
+}
+.text-justify{
+	text-align: justify;
+}
+
+
+
+
+/* ALINHAMENTO */
+.alignment-left{
+	float: left;
+}
+.alignment-right{
+	float: right;
+}
+
+
+
+
+/* MARGEM */
+.btn-margin{
+	margin: 10px;
+}
+.btn-margin-top{
+	margin-top: 10px;
+}
+.btn-margin-right{
+	margin-right: 10px;
+}
+.btn-margin-bottom{
+	margin-bottom: 10px;
+}
+.btn-margin-left{
+	margin-left: 10px;
+}
